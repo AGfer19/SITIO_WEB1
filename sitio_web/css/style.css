@@ -1,21 +1,23 @@
-body{
-margin: 0em;
+body {
+    margin: 0em;
 }
-.cover{
+
+.cover {
 
     height: 400px;
-     background-image: url("../img/portada.jpg");
-      color: white;
-      background-size: cover;
-      background-position:center;
-      background-color: rgb(0,0,0,0.5);
-      background-blend-mode: darken;
-} 
+    background-image: url("../img/portada.jpg");
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
 
 .cover-small {
-    height: 200px ;
+    height: 200px;
     background-blend-mode: normal;
 }
+
 .card {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
@@ -26,6 +28,15 @@ margin: 0em;
 }
 
 .card-text {
-    font-family:´Barlow condesed´, sans-serif;
+    font-family: ´Barlow condesed´, sans-serif;
     min-height: 7rem;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+}
+
+#img4 {
+    max-width: 100%;
+    height: auto;
 }
